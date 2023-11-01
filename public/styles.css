@@ -27,8 +27,11 @@ body {
     margin-left: 1240px;
   }
   
-  #usernameLabel, #usernameInput {
+  #usernameLabel {
     color: white;
+  }
+  #usernameInput {
+    color: black;
   }
   
   #usernameInput {
@@ -118,4 +121,23 @@ body {
   button {
     cursor: pointer;
   }
+
+
+
+
+
+
+/* Delete button styles */
+#deleteBtn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#deleteBtn:hover {
+  background-color: #c0392b;
+}
   
